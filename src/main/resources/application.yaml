@@ -1,0 +1,10 @@
+spring:
+  kafka:
+      bootstrap-servers: localhost:9092
+  data:
+    mongodb:
+      uri: mongodb+srv://poshan:login123@cluster1-iaa6i.gcp.mongodb.net/UserDB?retryWrites=true&w=majority
+      database: UserDB
+app:
+  topic:
+    example: test
