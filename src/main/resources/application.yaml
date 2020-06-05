@@ -3,8 +3,8 @@ spring:
       bootstrap-servers: localhost:9092
   data:
     mongodb:
-      uri: mongodb+srv://poshan:login123@cluster1-iaa6i.gcp.mongodb.net/UserDB?retryWrites=true&w=majority
-      database: UserDB
+      uri: mongodb://abid:abid72raza@ds125945.mlab.com:25945/bookstoredb?retryWrites=false
+      database: bookstoredb
 app:
   topic:
     example: test
